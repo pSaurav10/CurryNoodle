@@ -208,7 +208,7 @@
   z-index: 3;
   background: rgba(255, 255, 255, 0.00) !important;
   color: rgba(255, 255, 255, 255);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .restro-top-nav span {
@@ -269,12 +269,13 @@
 }
 
 .restro-navbar-theme .navbar-nav>.nav-item>.nav-link {
-  font-size: 18px;
+  font-size: 20px;
+  text-transform: uppercase;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
   padding-left: 20px;
   padding-right: 20px;
-  font-weight: 400;
+  font-weight: 550;
   color: #fff;
   opacity: 1 !important;
 }
@@ -421,6 +422,8 @@
 .restro-navbar-theme .navbar-nav.navbar-right .section-btn {
   display: inline-block;
   margin: 0.2em 0 0 1em;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .restro-navbar-theme .navbar-nav.navbar-right .section-btn:hover {
