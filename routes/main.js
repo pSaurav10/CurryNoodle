@@ -12,4 +12,12 @@ router.get('/menu',function(req, res, next){
     res.render('menu')
 });
 
+router.get('/contact',function(req, res, next){
+    res.render('contact')
+});
+
+router.post('/contact/contact-us',function(req, res, next){
+    
+});
+
 module.exports = router

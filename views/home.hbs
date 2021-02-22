@@ -3,24 +3,7 @@
 
 <head>
 
-     <title>{{title}}</title>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/lightbox.css">
-     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" href="css/magnific-popup.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/style.css">
+     {{>head}}
 
 </head>
 
@@ -33,35 +16,466 @@
     {{>topnav}}
 
     <!-- NAVIGATION BAR -->
-    {{>nav}}
+    {{>navh}}
 
     <!-- HOME -->
     {{>homecarousel}}
 
-     <!-- ABOUT -->
-    {{>about}}
+    <!-- ABOUT -->
+    <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-6 col-sm-12">
+                         <div class="about-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                   <h4>Read our story</h4>
+                                   <h2>Curry and Noodle</h2>
+                              </div>
+
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Located in Winston Salem, North Carolina in the Robinhood Village Shopping Center,
+                                        <strong>
+                                             Curry and
+                                             Noodle</strong> brings you the best in Indian, Thai and Nepalese Cuisine.
+                                        Our diverse
+                                        menu offering
+                                        provides you an exotic selection of Thai, Indian and Nepalese dishes prepared
+                                        with sumptuous
+                                        tastes, accompanied by our own house blends of various sauces and spices.
+                                   </p>
+                                   <p>Our Chef has over 20 years of experience and takes pride in creating
+                                        mouth-watering flavors
+                                        by using authentic and fresh ingredients that will have you coming back for
+                                        more. <strong>Curry and
+                                             Noodle</strong> welcomes you to come in and enjoy the unique experience and
+                                        enlighten your taste
+                                        buds.</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                         <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                              <img src="images/slider4.jpg" class="img-responsive" alt="">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
 
     <!-- Restro-Features -->
-    {{>features}}
+    <section class="restro-section">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-4">
+                         <div class="tm-feature">
+                              <i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
+                              <h2>Lunch Special</h2>
+                              <p class="tm-feature-description">Join us everyday till 3:00 PM to enjoy our
+                                   mouth-watering lunch offers comprising of Indian-Vegetarian, Non-Vegetarian and Thai
+                                   Entrees</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="tm-feature">
+                              <i class="fas fa-4x fa-building tm-feature-icon"></i>
+                              <h2>Our Restaurant</h2>
+                              <p class="tm-feature-description">At Curry and Noodle, we aspire to provide a pleasant
+                                   environment with appetizing meals and charming staffs at your service.</p>
+                         </div>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="tm-feature">
+                              <i class="fas fa-4x fa-map-marked-alt tm-feature-icon"></i>
+                              <h2>TakeOut</h2>
+                              <p class="tm-feature-description">Bring Curry &amp; Noodle to your doorstep. We offer a
+                                   variety
+                                   of delivery services and takeout!</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
 
     <!-- ***** Reservation Us Area Starts ***** -->
-    {{>reservation}}
+    <section id="reservation">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-6 col-sm-12 align-self-center">
+                         <div class="left-text-content">
+                              <div class="section-heading">
+                                   <h2>Order a delivery or Make a reservation</h2>
+                              </div>
+                              <div class="row">
+                                   <div class="col-lg-12 col-sm-12">
+                                        <div class="delivery">
+                                             <img class="logo" src="images/fooddelivery.png" alt="take-away">
+                                             <h4>Deliver to your doorstep!</h4>
+                                             <span><a href="#">Doordash</a></span><br>
+                                             <span><a href="#">Grubhub</a></span><br>
+                                             <span><a href="#">Uber Eats</a></span>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="row">
+                                   <div class="col-lg-6 col-sm-12">
+                                        <div class="phone">
+                                             <i class="fa fa-phone"></i>
+                                             <h4>Phone Numbers</h4>
+                                             <span><a href="callto:336-848-4050">336-848-4050</a></span>
+                                        </div>
+                                   </div>
+                                   <div class="col-lg-6 col-sm-12">
+                                        <div class="message">
+                                             <i class="fa fa-envelope"></i>
+                                             <h4>Emails</h4>
+                                             <span><a
+                                                       href="mailto:curryandnoodlenc@gmail.com">info@noodleandcurry.com</a></span>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                         <div class="reserve-form">
+                              <form id="reserve" action="" method="post">
+                                   <div class="row">
+                                        <div class="col-lg-12">
+                                             <h4>Table Reservation</h4>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <fieldset>
+                                                  <input name="name" type="text" id="name" placeholder="Your Name*"
+                                                       required="">
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <fieldset>
+                                                  <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                                       placeholder="Your Email Address" required="">
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <fieldset>
+                                                  <input name="phone" type="text" id="phone" placeholder="Phone Number*"
+                                                       required="">
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <fieldset>
+                                                  <select value="number-guests" name="number-guests" id="number-guests">
+                                                       <option value="number-guests">Number Of Guests</option>
+                                                       <option name="1" id="1">1</option>
+                                                       <option name="2" id="2">2</option>
+                                                       <option name="3" id="3">3</option>
+                                                       <option name="4" id="4">4</option>
+                                                       <option name="5" id="5">5</option>
+                                                       <option name="6" id="6">6</option>
+                                                       <option name="7" id="7">7</option>
+                                                       <option name="8" id="8">8</option>
+                                                       <option name="9" id="9">9</option>
+                                                       <option name="10" id="10">10</option>
+                                                       <option name="11" id="11">11</option>
+                                                       <option name="12" id="12">12</option>
+                                                  </select>
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                                  <input name="date" id="date" type="date" class="form-control"
+                                                       placeholder="dd/mm/yyyy">
+                                             </div>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                             <fieldset>
+                                                  <select value="time" name="time" id="time">
+                                                       <option value="time">Time</option>
+                                                       <option name="Breakfast" id="Breakfast">Breakfast</option>
+                                                       <option name="Lunch" id="Lunch">Lunch</option>
+                                                       <option name="Dinner" id="Dinner">Dinner</option>
+                                                  </select>
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                             <fieldset>
+                                                  <textarea name="message" rows="6" id="message" placeholder="Message"
+                                                       required=""></textarea>
+                                             </fieldset>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-12">
+                                             <fieldset>
+                                                  <button type="submit" id="form-submit" class="main-button-icon">Make A
+                                                       Reservation</button>
+                                             </fieldset>
+                                        </div>
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+    <!-- A brief detail -->
+    <section id="specialities" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-6 col-sm-12">
+                         <div class="specialities-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                   <h4>Specialities</h4>
+                                   <h2>Our Menu</h2>
+                              </div>
+
+                              <div class="wow fadeInLeft" data-wow-delay="0.4s">
+                                   <p>Our menu has been designed to bring a taste of South Asia to Winston-Salem, NC. From
+                                        naan baked
+                                        daily in our tandoori oven, to curry cooked with fresh ingredients and aromatic
+                                        spices, we
+                                        strive to provide our customers with the best dining experience and ancient
+                                        recipes. We also
+                                        have a variety of vegetarian and non - vegetarian dishes to suit your dietary needs.
+                                   </p>
+                                   <p>
+                                        Join us every day from 11:30 am to 3:00 pm for our delicious lunch special offers, which
+                                        is designed to tantalize your palate.
+                                        These are
+                                        ancient recipes which are used by our chefs to make delectable offerings of
+                                        lamb, goat,
+                                        chicken, vegetables, along with kababs, freshly baked naan bread, and salads.
+                                        Enjoy a
+                                        delicious dessert for a perfect ending.
+                                   </p>
+                                   <div class="col-md-12 mt-3">
+                                        <div class="form-group">
+                                             <a href="menu.html">
+                                                  <input type="submit" value="Explore Menu"
+                                                       class="btn btn-primary section-btn py-3 px-5">
+                                             </a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                         <div class="wow fadeInRight specialities-image" data-wow-delay="0.6s">
+                              <img src="images/MainMenu.jpg" class="img-responsive" alt="">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
 
     <!-- TESTIMONIAL -->
-    {{>testimonial}}
+    <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
 
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Testimonials</h2>
+                         </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                         <div class="owl-carousel owl-theme">
+                              <div class="item">
+                                   <div class="testimonial-img mb-4" style="background-image: url(images/testimonial.jpg)">
+                                   </div>
+                                   <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas
+                                        faucibus mollis interdum ullamcorper nulla non.</p>
+                                   <div class="tst-author">
+                                        <h4>Digital Carlson</h4>
+                                        <span>Pharetra quam sit amet</span>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="testimonial-img mb-4" style="background-image: url(images/testimonial.jpg)">
+                                   </div>
+                                   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                        turpis egestas. Sed vestibulum orci quam.</p>
+                                   <div class="tst-author">
+                                        <h4>Johnny Stephen</h4>
+                                        <span>Magna nisi porta ligula</span>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="testimonial-img mb-4" style="background-image: url(images/testimonial.jpg)">
+                                   </div>
+                                   <p>Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur
+                                        porta quis dui elit habitant morbi.</p>
+                                   <div class="tst-author">
+                                        <h4>Jessie White</h4>
+                                        <span>Vitae lacinia augue urna quis</span>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- Gallery -->
+     <section class="specialities">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12">
+                         <div class="specialities-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                   <h4>Have a peek at
+                                   <h2>Our Gallery</h2>
+                              </div>
+
+                              <div class="wow fadeInLeft" data-wow-delay="0.4s">
+                                   <p>Here we present photographs of variety of food that are available in our restaurant. 
+                                   </p>
+                              </div>
+                         </div>
+                    </div>
+				<div class="col-lg-12 col-sm-12 wow fadeInRight" data-wow-delay="0.6s">
+					<div class="restro-carousel owl-carousel owl-theme">
+						<div class="item">
+							<div class="row">
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food1.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food2.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food3.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food4.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food5.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food6.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food6.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food8.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food9.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/curry.jpg" alt="Image"
+												class="img-fluid"></a>
+										<!-- <h3>Fried Potato w/ Garlic</h3>
+										<div class="d-flex">
+											<div class="price">$19.00</div>
+										</div> -->
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food1.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-4">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food2.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food3.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+								<div class="col-6 col-lg-6 mb-0">
+									<div class="restro-food">
+										<a href="#" class="thumbnail"><img src="images/food4.jpg" alt="Image"
+												class="img-fluid"></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+     
     <!-- FOOTER -->
     {{>footer}}
 
      <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
+    {{>scripts}}
 
 </body>
 </html>
