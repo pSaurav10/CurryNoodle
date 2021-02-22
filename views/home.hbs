@@ -71,16 +71,16 @@
                <div class="row">
                     <div class="col-lg-4">
                          <div class="tm-feature">
-                              <i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
+                              <img src="images/healthy-eating.png" alt="Food being delivered">
                               <h2>Lunch Special</h2>
                               <p class="tm-feature-description">Join us everyday till 3:00 PM to enjoy our
-                                   mouth-watering lunch offers comprising of Indian-Vegetarian, Non-Vegetarian and Thai
+                                   mouth-watering lunch offers comprising of Vegetarian, Non-Vegetarian and Thai
                                    Entrees</p>
                          </div>
                     </div>
                     <div class="col-lg-4">
                          <div class="tm-feature">
-                              <i class="fas fa-4x fa-building tm-feature-icon"></i>
+                              <img src="images/food-store.png" alt="Restaurant">
                               <h2>Our Restaurant</h2>
                               <p class="tm-feature-description">At Curry and Noodle, we aspire to provide a pleasant
                                    environment with appetizing meals and charming staffs at your service.</p>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="col-lg-4">
                          <div class="tm-feature">
-                              <i class="fas fa-4x fa-map-marked-alt tm-feature-icon"></i>
+                              <img src="images/map.png" alt="Map with multiple pins">
                               <h2>TakeOut</h2>
                               <p class="tm-feature-description">Bring Curry &amp; Noodle to your doorstep. We offer a
                                    variety
@@ -124,14 +124,14 @@
                                    <div class="col-lg-6 col-sm-12">
                                         <div class="phone">
                                              <i class="fa fa-phone"></i>
-                                             <h4>Phone Numbers</h4>
+                                             <h4>Phone Number</h4>
                                              <span><a href="callto:336-848-4050">336-848-4050</a></span>
                                         </div>
                                    </div>
                                    <div class="col-lg-6 col-sm-12">
                                         <div class="message">
                                              <i class="fa fa-envelope"></i>
-                                             <h4>Emails</h4>
+                                             <h4>Email</h4>
                                              <span><a
                                                        href="mailto:curryandnoodlenc@gmail.com">info@noodleandcurry.com</a></span>
                                         </div>
@@ -141,10 +141,11 @@
                     </div>
                     <div class="col-lg-6 col-sm-12">
                          <div class="reserve-form">
-                              <form id="reserve" action="" method="post">
+                              <form id="reserve" action="reservation" method="post">
                                    <div class="row">
                                         <div class="col-lg-12">
                                              <h4>Table Reservation</h4>
+                                             {{msg}}
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
                                              <fieldset>
@@ -166,21 +167,8 @@
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
                                              <fieldset>
-                                                  <select value="number-guests" name="number-guests" id="number-guests">
-                                                       <option value="number-guests">Number Of Guests</option>
-                                                       <option name="1" id="1">1</option>
-                                                       <option name="2" id="2">2</option>
-                                                       <option name="3" id="3">3</option>
-                                                       <option name="4" id="4">4</option>
-                                                       <option name="5" id="5">5</option>
-                                                       <option name="6" id="6">6</option>
-                                                       <option name="7" id="7">7</option>
-                                                       <option name="8" id="8">8</option>
-                                                       <option name="9" id="9">9</option>
-                                                       <option name="10" id="10">10</option>
-                                                       <option name="11" id="11">11</option>
-                                                       <option name="12" id="12">12</option>
-                                                  </select>
+                                                  <input name="guests" type="number" min="0" id="guests" placeholder="Number of Guests*"
+                                                       required="">
                                              </fieldset>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
@@ -191,12 +179,8 @@
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
                                              <fieldset>
-                                                  <select value="time" name="time" id="time">
-                                                       <option value="time">Time</option>
-                                                       <option name="Breakfast" id="Breakfast">Breakfast</option>
-                                                       <option name="Lunch" id="Lunch">Lunch</option>
-                                                       <option name="Dinner" id="Dinner">Dinner</option>
-                                                  </select>
+                                                  <input name="time" type="text" id="time" placeholder="Time:11:30 AM-10:00 PM*"
+                                                       required="">
                                              </fieldset>
                                         </div>
                                         <div class="col-lg-12 col-sm-12">
@@ -207,7 +191,7 @@
                                         </div>
                                         <div class="col-lg-12 col-sm-12">
                                              <fieldset>
-                                                  <button type="submit" id="form-submit" class="main-button-icon">Make A
+                                                  <button type="submit" id="reservation-submit" class="main-button-icon">Make A
                                                        Reservation</button>
                                              </fieldset>
                                         </div>
@@ -252,7 +236,7 @@
                                    </p>
                                    <div class="col-md-12 mt-3">
                                         <div class="form-group">
-                                             <a href="menu.html">
+                                             <a href="/menu">
                                                   <input type="submit" value="Explore Menu"
                                                        class="btn btn-primary section-btn py-3 px-5">
                                              </a>

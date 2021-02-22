@@ -105,7 +105,7 @@ a:hover, a:active, a:focus {
 
 section {
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 #menu,
@@ -212,10 +212,16 @@ font-size: 15px;
 
 .restro-top-nav span {
 color: #fff;
+font-weight: bold;
 }
 
 .restro-top-nav span a {
 color: #fff;
+font-weight: bold;
+}
+
+.restro-top-nav span a:hover{
+  color: #ce3232;
 }
 
 @media (max-width: 991.98px) {
@@ -247,18 +253,19 @@ padding: 0;
 }
 }
 
-.restro-navbar-theme .navbar-brand {
-color: #fff;
+.restro-navbar-theme .navbar-brand img{
+  height: 3em;
 }
 
-.restro-navbar-theme .navbar-brand:hover, .restro-navbar-theme .navbar-brand:focus {
-color: #931320;
+.restro-navbar-theme .navbar-brand {
+background-color:rgba(255, 255, 255, 1);
 }
+
 
 @media (max-width: 991.98px) {
-.restro-navbar-theme .navbar-brand {
+/* .restro-navbar-theme .navbar-brand {
   color: #fff;
-}
+} */
 }
 
 @media (max-width: 991.98px) {
@@ -280,7 +287,7 @@ opacity: 1 !important;
 }
 
 .restro-navbar-theme .navbar-nav>.nav-item>.nav-link:hover {
-color: #000000;
+color: #ce3232;
 }
 
 @media (max-width: 991.98px) {
@@ -292,17 +299,17 @@ color: #000000;
   color: rgba(255, 255, 255, 0.7);
 }
 .restro-navbar-theme .navbar-nav>.nav-item>.nav-link:hover {
-  color: #931320;
+  color: #ce3232;
 }
 }
 
 .restro-navbar-theme .navbar-nav>.nav-item.active>a {
-color: #931320;
+color: #ce3232;
 }
 
 @media (max-width: 991.98px) {
 .restro-navbar-theme .navbar-nav>.nav-item.active>a {
-  color: #fff;
+  color: #ce3232;
 }
 }
 
@@ -331,7 +338,7 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .restro-navbar-theme.scrolled .nav-item.active>a {
-color: #931320 !important;
+color: #ce3232 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -353,8 +360,8 @@ color: #931320 !important;
 
 .restro-navbar-theme.scrolled .navbar-toggler {
 border: none;
-color: #931320 !important;
-border-color: #931320 !important;
+color: #ce3232 !important;
+border-color: #ce3232 !important;
 cursor: pointer;
 padding-right: 0;
 text-transform: uppercase;
@@ -369,11 +376,11 @@ color: #000000 !important;
 }
 
 .restro-navbar-theme.scrolled .nav-link.active {
-color: #f34949 !important;
+color: #ce3232 !important;
 }
 
 .restro-navbar-theme.scrolled .nav-link:hover {
-color: #f34949 !important;
+color: #ce3232 !important;
 }
 
 .restro-navbar-theme.scrolled.awake {
@@ -390,7 +397,7 @@ transition: .3s all ease-out;
 }
 
 .restro-navbar-theme.scrolled .navbar-brand {
-color: #931320;
+color: #ce3232;
 }
 
 .navbar-brand {
@@ -404,18 +411,22 @@ font-size: 30px;
 padding-right: 12px;
 padding-left: 12px;
 padding-top: 12.5px;
+font-size: 14px;
+font-weight: 500;
 }
 .restro-navbar-theme .navbar-nav.navbar-right li a{
 color: #fff;
+font-size:16px;
+font-weight: 800;
 }
 .restro-navbar-theme.scrolled .navbar-nav.navbar-right li a{
 color: #000000;
 }
 .restro-navbar-theme .navbar-nav.navbar-right li a:focus{
-color: #931320;
+color: #ce3232;
 }
 .restro-navbar-theme .navbar-nav.navbar-right li a:hover{
-color: #931320;
+color: #ce3232;
 }
 
 .restro-navbar-theme .navbar-nav.navbar-right .section-btn {
@@ -596,9 +607,10 @@ text-align: center;
 padding: 45px 20px;
 }
 
-.tm-feature-icon {
-color: #931320;
-margin-bottom: 65px;
+.tm-feature img{
+  height: 4em;
+  width: 4em;
+  margin-bottom: 50px;
 }
 
 .tm-feature-description {
@@ -697,7 +709,7 @@ margin-bottom: 10px;
 #reservation .delivery span a,
 #reservation .phone span a,
 #reservation .message span a {
-font-size: 14px;
+font-size: 18px;
 color: #2a2a2a;
 transition: all .3s;
 }
@@ -729,8 +741,7 @@ cursor: pointer;
 }
 
 .reserve-form input,
-.reserve-form textarea,
-.reserve-form select {
+.reserve-form textarea{
 color: #2a2a2a;
 font-size: 14px;
 border: 1px solid #ddd;
