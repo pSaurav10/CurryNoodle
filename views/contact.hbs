@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     {{>head}}
+
+</head>
+
+<!-- BOOK A TABLE MODAL PART START -->
+{{>reservemodal}}
+<!-- BOOK A TABLE MODAL PART END -->
+
+<body class="contact-us-body">
+
+     <!-- PRELOADER START -->
+     {{>preloader}}
+     <!-- PRELOADER END -->
+     <!-- Top Nav -->
+     {{>topnav}}
+
+     <!-- NAV BAR PART START -->
+     {{>navc}}
+     <!-- NAV BAR PART END -->
+
+     <!-- PAGE HEADER PART START -->
+     <section id="full-page-header" class="page-header">
+          <div class="container-fluid">
+               <div class="row">
+
+                    <div class="col-md-12 p-0 header">
+
+                         <div class="content text-center">
+
+                              <h2>Contact Us</h2>
+
+                              <h3>About any thing</h3>
+
+                              <img src="images/title-shape.svg" alt="Title Shape Image">
+
+                              <div class="breadcrumbs">
+                                   <ul class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Contact Us
+                                        </li>
+                                   </ul>
+                              </div>
+
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- PAGE HEADER PART END -->
+
+     <!-- CONTACT US PAGE PART START -->
+     <section id="full-contact-us-page" class="contact-us-page contact-us">
+          <div class="container-fluid">
+               <div class="row">
+
+                    <div class="col-md-10 offset-md-1 details-cont text-center">
+                         <div class="row details">
+                              <div class="col-md-4 phone p-0">
+                                   <p>
+                                        <i class="fas fa-phone-volume"></i>
+                                   </p>
+                                   <p>
+                                        Phone
+                                   </p>
+                                   <ul>
+                                        <li>10 AM - 09 PM (Tuesday: Closed)</li>
+                                        <li><a href="callto:336-815-8033">+1 336-815-8033</a></li>
+                                   </ul>
+                              </div>
+                              <div class="col-md-4 mail p-0">
+                                   <p>
+                                        <i class="far fa-envelope-open"></i>
+                                   </p>
+                                   <p>
+                                        Mail
+                                   </p>
+                                   <ul>
+                                        <li><a href="mailto:curryandnoodlenc@gmail.com">info@noodleandcurry.com</a></li>
+
+                                   </ul>
+                              </div>
+                              <div class="col-md-4 address p-0">
+                                   <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                   </p>
+                                   <p>
+                                        Location
+                                   </p>
+                                   <ul>
+                                        <li>5232 Robinhood Village Drive,</li>
+                                        <li>Winston-Salem, NC 27106</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-10 offset-md-1 form text-center">
+
+                         <div class="">
+                              <p>Write something, <b>your opinion</b> is important for us.</p>
+
+                              <form action="contact-us" method="post" id="contact-form">
+
+                                   <div class="row">
+                                        <div class="col-md-4">
+                                             <div class="input-group">
+                                                  <input type="name" name="name" class="form-control" placeholder="Full name *"
+                                                       autocomplete="off">
+                                             </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                             <div class="input-group">
+                                                  <input type="email" name="email" class="form-control" placeholder="Your Email *"
+                                                       autocomplete="off">
+                                             </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                             <div class="input-group">
+                                                  <input type="text" name="subject" class="form-control" placeholder="Subject *"
+                                                       autocomplete="off">
+                                             </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                             <div class="input-group">
+                                                  <textarea class="form-control" name="message" id="text"
+                                                       placeholder="Your message" autocomplete="off"></textarea>
+                                             </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                             <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                       <button class="btn" type="submit" id="cf-submit" name="submit">Submit</button>
+                                                  </span>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </form>
+
+                         </div>
+
+                    </div>
+
+                    <div class="col-md-12 p-0 map">
+                         <iframe <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1611.4173929737408!2d-80.3680969!3d36.1218826!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853b6b2c335c385%3A0xc0ba3db830e49375!2s5232%20Robinhood%20Village%20Dr%2C%20Winston-Salem%2C%20NC%2027106%2C%20USA!5e0!3m2!1sen!2snp!4v1617127221221!5m2!1sen!2snp"
+                              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- CONTACT US PART END -->
+
+     <!-- FOOTER PART START -->
+     {{>footer}}
+     <!-- FOOTER PART END -->
+
+     {{>scripts}}
+
+</body>
+
+</html>
