@@ -1083,7 +1083,7 @@ button.shine:hover:after {
     }
   }
   
-  .restro-home-menu-section .heading h3 {
+  .restro-home-menu-section .heading h3, h1 {
     font-size: 35px;
     color: #000000;
   }
@@ -1112,11 +1112,9 @@ button.shine:hover:after {
     margin-bottom: 3em;
   }
   
-  
-
-  .heading-menu h3 {
-    font-size: 22px;
-    font-weight: 700;
+  .heading-menu h1 {
+    font-size: 27px;
+    font-weight: 800;
     margin-top: 10px;
     color: #000000;
     text-decoration: underline;
@@ -1150,6 +1148,16 @@ button.shine:hover:after {
   
   }
   
+  .sub-heading-menu h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color:tan ;
+    text-transform: uppercase;
+  }
   
   .restro-menu {
     width: 100%;
