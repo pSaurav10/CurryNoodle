@@ -1248,7 +1248,7 @@ button.shine:hover:after {
 	background: #fff;
 }
 
-.opening-hours .col-right {
+.opening-hours .col-left {
     background: url(../../images/openinghours.png) center center no-repeat;
     background-size: auto 100%;
     height: 885px;
@@ -1257,11 +1257,11 @@ button.shine:hover:after {
 
 
 
-.opening-hours .col-left {
+.opening-hours .col-right {
     padding: 0 0 70px 60px;
 }
 
-.opening-hours .col-left h2 {
+.opening-hours .col-right h2 {
     font-family: 'Great Vibes', cursive;
     color: #f15f2a;
     font-size: 45px;
@@ -1270,7 +1270,7 @@ button.shine:hover:after {
     overflow: hidden;
 }
 
-.opening-hours .col-left h2::after {
+.opening-hours .col-right h2::after {
     content: "";
     display: inline-block;
     height: 0.6em;
@@ -1281,18 +1281,18 @@ button.shine:hover:after {
     border-top: 1px solid #f15f2a;
 }
 
-.opening-hours .col-left h3 {
+.opening-hours .col-right h3 {
     font-size: 60px;
     line-height: 35px;
     text-transform: capitalize;
     padding-bottom: 20px;
 }
 
-.opening-hours .col-left img {
+.opening-hours .col-right img {
     width: 100px;
 }
 
-.opening-hours .col-left .headline {
+.opening-hours .col-right .headline {
     font-size: 18px;
     line-height: 30px;
     font-weight: 500;
@@ -1301,15 +1301,15 @@ button.shine:hover:after {
     margin-bottom: 5px;
 }
 
-.opening-hours .col-left p {
+.opening-hours .col-right p {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 25px;
 }
 
-.opening-hours .col-left .phone p,
-.opening-hours .col-left .days p,
-.opening-hours .col-left .hours p {
+.opening-hours .col-right .phone p,
+.opening-hours .col-right .days p,
+.opening-hours .col-right .hours p {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1319,9 +1319,9 @@ button.shine:hover:after {
     margin-bottom: 20px;
 }
 
-.opening-hours .col-left .phone p:nth-child(2),
-.opening-hours .col-left .days p:nth-child(2),
-.opening-hours .col-left .hours p:nth-child(2) {
+.opening-hours .col-right .phone p:nth-child(2),
+.opening-hours .col-right .days p:nth-child(2),
+.opening-hours .col-right .hours p:nth-child(2) {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1331,7 +1331,7 @@ button.shine:hover:after {
     padding-bottom: 20px;
 }
 
-.opening-hours .col-left .hours p:nth-child(2) {
+.opening-hours .col-right .hours p:nth-child(2) {
     padding-bottom: 0;
 }
 

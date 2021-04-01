@@ -8,7 +8,7 @@
 
     /* NAVBAR PART CSS */
     .cf-nav {
-        padding: 10px 5px;
+        padding: 0px 0px;
     }
 
     #navbar-id img {
@@ -166,6 +166,79 @@
     .about-us .col-right .phone p:nth-child(2),
     .about-us .col-right .days p:nth-child(2),
     .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .opening-hours {
+        padding: 25px 0 0;
+        overflow: hidden;
+    }
+
+    .opening-hours .col-left {
+        height: 400px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .opening-hours .col-left img {
+        bottom: 35px;
+        right: 15%;
+        width: 190px;
+    }
+
+    .opening-hours .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .opening-hours .col-right h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .opening-hours .col-right h2::after {
+        width: 12%;
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+
+    .opening-hours .col-right h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 5PX;
+    }
+
+    .opening-hours .col-right img {
+        width: 80px;
+    }
+
+    .opening-hours .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours .col-right p {
+        margin-bottom: 35px;
+    }
+
+    .opening-hours .col-right .phone p,
+    .opening-hours .col-right .days p,
+    .opening-hours .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
         font-size: 22px;
         padding-bottom: 15px;
     }
@@ -470,6 +543,9 @@
     .about-us-page .about-us .col-right h2::after {
         width: 10%;
     }
+    .opening-hours-page .opening-hours .col-right h2::after {
+        width: 10%;
+    }
 
     .page-header .header .content h3 {
         font-size: 30px;
@@ -488,6 +564,11 @@
     .about-us .col-right .phone p:nth-child(2),
     .about-us .col-right .days p:nth-child(2),
     .about-us .col-right .hours p:nth-child(2) {
+        font-size: 20px;
+    }
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
         font-size: 20px;
     }
 
@@ -750,6 +831,78 @@
     .about-us .col-right .phone p:nth-child(2),
     .about-us .col-right .days p:nth-child(2),
     .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .opening-hours {
+        padding: 30px 0 0;
+        overflow: hidden;
+    }
+
+    .opening-hours .col-left {
+        height: 680px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .opening-hours .col-left img {
+        bottom: 60px;
+        right: 15%;
+        width: 250px;
+    }
+
+    .opening-hours .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .opening-hours .col-right h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0px;
+    }
+
+    .opening-hours .col-right h2::after {
+        width: 12%;
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+
+    .opening-hours .col-right h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 10PX;
+    }
+
+    .opening-hours .col-right img {
+        width: 80px;
+    }
+
+    .opening-hours .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .opening-hours .col-right p {
+        margin-bottom: 20px;
+    }
+
+    .opening-hours .col-right .phone p,
+    .opening-hours .col-right .days p,
+    .opening-hours .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
         font-size: 22px;
         padding-bottom: 15px;
     }
@@ -1180,7 +1333,7 @@
 
     /* NAVBAR PART CSS */
     .cf-nav {
-        padding: 10px 5px;
+        padding: 0px 0px;
     }
 
     #navbar-id img {
@@ -1370,6 +1523,84 @@
     .about-us .col-right .phone p:nth-child(2),
     .about-us .col-right .days p:nth-child(2),
     .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+
+    .opening-hours {
+        padding: 30px 0 0;
+    }
+
+    .opening-hours .col-left {
+        height: 805px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .opening-hours .col-left img {
+        bottom: 65px;
+        right: 115px;
+        width: 330px;
+    }
+
+    .opening-hours .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .opening-hours .col-right h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .opening-hours .col-right h2::after {
+        width: 12%;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .opening-hours .col-right h3 {
+        font-size: 35px;
+        line-height: 15px;
+        padding-bottom: 15PX;
+    }
+
+    .opening-hours .col-right img {
+        width: 80px;
+    }
+
+    .opening-hours .col-right h2::after {
+        width: 5%;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .opening-hours .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .opening-hours .col-right p {
+        margin-bottom: 20px;
+    }
+
+    .opening-hours .col-right .phone p,
+    .opening-hours .col-right .days p,
+    .opening-hours .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
         font-size: 22px;
         padding-bottom: 15px;
     }
@@ -1888,6 +2119,65 @@
         line-height: 5px;
     }
 
+    .opening-hours {
+        padding: 60px 0 0;
+    }
+
+    .opening-hours .col-left {
+        position: initial;
+        height: 642px;
+        background-size: auto 100%;
+    }
+
+    .opening-hours .col-left img {
+        position: relative;
+        top: 80%;
+        left: 40%;
+        width: 260px;
+    }
+
+    .opening-hours .col-right h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+
+    .opening-hours .col-right h2::after {
+        width: 30%;
+    }
+
+    .opening-hours .col-right h3 {
+        font-size: 45px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .opening-hours .col-right img {
+        width: 90px;
+    }
+
+    .opening-hours .col-right .headline {
+        padding-top: 10px;
+    }
+
+    .opening-hours .col-right {
+        padding: 0 0 10px 5px;
+    }
+
+    .opening-hours .col-right p {
+        padding-right: 10px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
+        font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 5px;
+    }
+
     /* SPECIAL PART CSS */
     .special .content h2 {
         margin-top: 90px;
@@ -2343,6 +2633,67 @@
     .about-us .col-right .phone p:nth-child(2),
     .about-us .col-right .days p:nth-child(2),
     .about-us .col-right .hours p:nth-child(2) {
+        padding-bottom: 20px;
+        font-size: 25px;
+        line-height: 5px;
+    }
+
+
+    .opening-hours {
+        padding: 70px 0 0;
+    }
+
+    .opening-hours .col-left {
+        position: relative;
+        height: 775px;
+        background-size: auto 100%;
+    }
+
+    .opening-hours .col-left img {
+        bottom: 50px;
+        right: 75px;
+        width: 300px;
+    }
+
+    .opening-hours .col-right {
+        padding: 0 80px 10px 10px;
+    }
+
+    .opening-hours .col-right h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .opening-hours .col-right h3 {
+        font-size: 50px;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    .opening-hours .col-right img {
+        width: 90px;
+    }
+
+    .opening-hours .col-right .headline {
+        padding-top: 10px;
+    }
+
+    .opening-hours .col-right p {
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+
+    .opening-hours .col-right .phone p,
+    .opening-hours .col-right .days p,
+    .opening-hours .col-right .hours p {
+        margin-bottom: 15px;
+        line-height: 10px;
+    }
+
+    .opening-hours .col-right .phone p:nth-child(2),
+    .opening-hours .col-right .days p:nth-child(2),
+    .opening-hours .col-right .hours p:nth-child(2) {
         padding-bottom: 20px;
         font-size: 25px;
         line-height: 5px;
