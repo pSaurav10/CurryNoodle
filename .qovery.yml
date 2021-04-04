@@ -1,0 +1,11 @@
+---
+application:
+  name: "currynoodle"
+  project: "currynoodle"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-currynoodle"
+  routes:
+  - application_name: "currynoodle"
+    paths:
+    - "/*"
